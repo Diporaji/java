@@ -1,14 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapg@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/bootstrap-icons.svg">
+    <link rel="stylesheet" href="dist/css/ola.css">
+    <link rel="stylesheet" href="dist/js/dipo.js">
+
+    <style>
+        body {
+            background-image: url('acce/re.png');
+        }
+
+        div {
+            margin-left: 100px;
+            background: chocolate;
+            border-radius: 30px;
+            text-align: center;
+            width: 60%;
+            height: 50%;
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    Java:<br>
+    <div class="d-flex">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 1
+            </button>
+            <ul class="dropdown-menu dropdown-menu-white">
+                <li><a class="dropdown-item java" href="day1.html">
+                        compare and contrast java and javascript as programming languages
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 2
+            </button>
+            <ul class="dropdown-menu dropdown-menu-white">
+                <li><a class="dropdown-item" href="day2.html">
+                        Explain six ways to display JS code,
+                    </a></li>
+                <li><a class="dropdown-item"  href="day2.html">
+                        Define 6 reserved JS keywords and what they do.
+
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 3
+            </button>
+            <ul class="dropdown-menu dropdown-menu-white">
+                <li><a class="dropdown-item" href="day3.html">
+                        what are the differences and similarities between let, var and const?
+                    </a></li>
+                <li><a class="dropdown-item" href="day3.html">
+                        2. Write a short history of JavaScript from ECMA script 1 to ES6
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 4
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="day4.html">
+                        With relevant examples, explain the difference between the three ways you can identify string in
+                        JS.
+                    </a></li>
+                <li><a class="dropdown-item" href="day4.html">
+                        What is the difference between number and bigInt
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 6
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="day6.html">
+                        Differentiate between comparison and logical operators.
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                DAY 7
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="day7.html">
+                        SIMILARITIES AND DIFFERENCE BETWEEN TERNARY OPERATOR,<br>IF ELSE, AND SWITCH STATEMENT
+                    </a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                calculator
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="day8.html">
+                        calculator
+                    </a></li>
+            </ul>
+        </div>
+    </div><br><br>
+
+
+    <div class=" col-lg w-75 p-5">
+        <b> Explain six ways to display JS code;</b><br><br>
+        1-Embedded within HTML: JavaScript code can be directly embedded within HTML <br>
+        script tags. This is a common way to include JavaScript within web pages. <br>
+
+        <b>2-External JavaScript File:</b> <br>
+        You can also write JavaScript code in a separate file with a .js extension and include it in your HTML using the
+        <br>
+        script tag with the src attribute pointing to the file. <br>
+
+        <b>3-Using the Browser Console:</b> <br>
+        You can directly type and execute JavaScript code in the <br>
+        browser's developer console, which is useful for debugging and testing. <br>
+        <b> 4-Server-Side JavaScript:</b> <br>
+        JavaScript code can be executed on the server using platforms like Node.js. Server-side JavaScript files
+        typically have a <br>
+        .js extension and are executed by the Node.js runtime. <br>
+        <b> 5-Asynchronous Module Definition (AMD):</b> <br>
+        AMD is a specification for modular code in JavaScript. <br>
+        Libraries like RequireJS implement AMD and allow you to define modules and load them asynchronously. <br>
+        <b>6-Using JavaScript Frameworks and Libraries:</b> <br>
+        Modern JavaScript frameworks like React, Angular, and Vue.js provide their own ways to structure and display
+        <br> JavaScript code within components or templates.
+        These are some common ways to display JavaScript code, each suited to different use cases and scenarios.
+        <br><br>
+
+
+
+
+
+
+        <b>Java:</b><br>
         Strongly Typed and Static:<br>
-        Java is strongly typed, meaning that variable types must be explicitly declared and adhered to throughout the program.<br>
+        Java is strongly typed, meaning that variable types must be explicitly declared and adhered to throughout the
+        program.<br>
         It is also static, which means that type checking occurs at compile time.<br><br>
         Object-Oriented:<br>
         Java follows the object-oriented programming (OOP) paradigm, emphasizing the use of objects and classes.<br>
@@ -22,9 +177,9 @@
         Used for Standalone Applications:<br>
         Java creates standalone applications that can run independently.<br>
         Java applets (small applications) are fully contained programs that can be embedded in web pages.<br>
-        
+
         <br><br>
-    JavaScript:<br>
+        <b>JavaScript:</b><br>
         Weakly Typed and Dynamic:<br>
         JavaScript is weakly typed, allowing more flexibility in variable types.<br>
         It is dynamic, with type checking occurring during runtime.<br><br>
@@ -38,7 +193,15 @@
         JavaScript executes on the client side (browser).<br>
         It enhances user experience by enabling interactivity and real-time updates.<br><br>
         Libraries and Frameworks:<br>
-        JavaScript has a rich ecosystem of libraries (e.g., React, Angular, Vue) and frameworks (e.g., Node.js) for efficient development.<br>
-
+        JavaScript has a rich ecosystem of libraries (e.g., React, Angular, Vue) and frameworks (e.g., Node.js) for
+        efficient development.<br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
